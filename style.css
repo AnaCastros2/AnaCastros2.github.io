@@ -1,0 +1,52 @@
+
+#picture {
+    border-radius:  50% 20% 50%;
+    padding: 5px;
+    background-color: brown;
+    margin-top: 10px;
+    float: left;    
+}
+
+.foto-container {
+    height: 200px;
+    position: relative;
+}
+
+.texto {
+    line-height: 25px;
+    text-align: center; 
+    position: absolute;
+    left: 200px;
+    right: 30px;  
+}
+
+h2 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    color: brown;
+}
+
+
+body {
+    width: 60%;
+    margin: auto;
+    background-color:rgb(246, 199, 195);
+}
+
+h3 { 
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+a {
+    line-height: 25px;
+}
+
+div {
+    border: 3px solid black;
+}
+
+ul li:nth-child(odd) {
+    background-color: brown ;
+    color: white; 
+}
